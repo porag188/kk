@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './pages/navBar';
+import Home from './pages/news';
 import News from './pages/news';
 import Service from './pages/service';
 import Company from './pages/conpany';
@@ -15,8 +16,9 @@ function App() {
   <div className="app">
     <NavBar/>
     <Switch>
-    <Route path="/" exact component={News} />
+    <Route path="/" exact component={Home} />
     <Route path="/company" component={Company}/>
+    <Route path="/news" component={News}/>
     <Route path="/service" component={Service}/>
     <Route path="/contact" component={Contact}/>
     </Switch>
@@ -25,10 +27,6 @@ function App() {
   </Router>
   );
 }
-const Home=()=>(
-  <div>
-    <h1>Home page</h1>
-  </div>
-)
+
 
 export default App;

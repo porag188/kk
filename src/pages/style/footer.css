@@ -1,0 +1,17 @@
+.footer{
+    background-color: #070606;
+    color: white;
+    padding-top: 20px;
+}
+
+
+h2{
+    margin-left: auto;
+}
+.footer_h2{
+    margin-left: 75px;
+}
+ul{
+    margin-left: 100px;   
+    list-style-type: none;
+}

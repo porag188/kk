@@ -1,0 +1,8 @@
+.backgroud{
+    padding-top: 40px;
+    background-image: url("m1.jpg");
+    background-color: #cccccc;
+}
+p{
+    text-align: justify;
+}

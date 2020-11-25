@@ -1,15 +1,6 @@
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 10vh;
-    background: lightblue;
-    color: white;
+.logo{
+    padding-left: 100px;
 }
-.navbar-link{
-    width: 20%;
-    display: flex;
-    justify-content: space-around;
-    align-items: left;
-    list-style: none;
+navbar{
+    margin-right: 400px;
 }
