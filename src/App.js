@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './pages/navBar';
-import Home from './pages/news';
+import Home from './pages/home';
 import News from './pages/news';
 import Service from './pages/service';
 import Company from './pages/conpany';
