@@ -6,8 +6,8 @@ function News() {
     <div>
     <div className="header">
       <div className="jumbotron text-center backgroud">
-      <h1>Home page</h1>
-      <p className="lead text-muted coverText">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+      <h1 className="text-uppercase md-2 font-weight-bold cover_text">News page</h1>
+      <p className="d-flex justify-content-center cover_text">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
       
         </div>
       </div>
@@ -18,7 +18,7 @@ function News() {
       <div className="row">
         <div className="col-md-12 news_text ">
         <h1 className="cover-heading">News</h1>
-  <h2>News One</h2>
+  <h2 >News One</h2>
   <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
   <small className="text-muted">10 mins</small>
   <h2 >News Two</h2>
@@ -45,7 +45,6 @@ function News() {
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small className="text-muted">9 mins</small>
               </div>
@@ -61,7 +60,6 @@ function News() {
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small className="text-muted">9 mins</small>
               </div>
@@ -81,7 +79,6 @@ function News() {
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small className="text-muted">9 mins</small>
               </div>

@@ -1,0 +1,23 @@
+.service-silder{
+    height: 500px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.silder-image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-silder .content{
+    position: relative;
+    z-index: 2;
+}
