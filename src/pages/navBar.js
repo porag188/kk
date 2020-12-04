@@ -4,9 +4,10 @@ function NavBar() {
   return (
       <div >
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <div className="container">
     <Navbar.Brand className="logo" href="#home">Company logo</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    <Navbar.Collapse id="responsive-navbar-nav">
+    <Navbar.Collapse  id="responsive-navbar-nav">
       <Nav className="mr-auto">
        
      
@@ -20,6 +21,7 @@ function NavBar() {
    
       </Nav>
     </Navbar.Collapse>
+    </div>
   </Navbar>
   </div>
   );
